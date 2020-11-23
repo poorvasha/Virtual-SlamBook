@@ -1,0 +1,33 @@
+ion-content.background{
+    --background: url('../../assets/forever.png');
+} 
+ion-row{
+    margin-top: 150%;
+}
+// align items center of the page
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// happy-birthday text background to be black color
+#black-box{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+  
+/*================== text Styles ===============*/
+p{
+    color: rgba(0, 255, 255, 1); 
+    font-size: 36px;
+}
+#bd-text{
+    margin: 3%;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 36px;  
+}
+#Cyso-text{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 20px;
+}

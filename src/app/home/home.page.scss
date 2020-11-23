@@ -18,15 +18,16 @@ ion-content.background{
 }
 
 /*================== text Styles ===============*/
-#bd-text{
-  margin: 4%;
+p{
   color: rgba(0, 255, 255, 1);
-  font-family: 'Great Vibes', cursive;
   font-size: 36px;
+}
+#bd-text{
+  margin: 3%;
+  font-family: 'Great Vibes', cursive;
 }
 #logi-name{
   color: rgba(0, 255, 255, 1);
   font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 36px;
 }
 

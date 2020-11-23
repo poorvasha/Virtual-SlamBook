@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'wishes',
+    loadChildren: () => import('./wishes-page/wishes-page.module').then( m => m.WishesPagePageModule)
+  },
+  {
+    path: 'forever',
+    loadChildren: () => import('./forever/forever.module').then( m => m.ForeverPageModule)
+  },
 ];
 
 @NgModule({
