@@ -1,27 +1,32 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-content.background{
+  --background: url('../../assets/logi-photo.png');
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+#row1{
+  margin-top: 85%;
+}
+// align items center of the page
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// happy-birthday text background to be black color
+#black-box{
+  background-color: black;
+  width: 100%;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+/*================== text Styles ===============*/
+#bd-text{
+  margin: 4%;
+  color: rgba(0, 255, 255, 1);
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+}
+#logi-name{
+  color: rgba(0, 255, 255, 1);
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 36px;
 }
 
-#container a {
-  text-decoration: none;
-}
