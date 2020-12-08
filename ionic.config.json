@@ -1,5 +1,7 @@
 {
   "name": "Logi_BD_Gift",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

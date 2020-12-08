@@ -8,9 +8,11 @@ import { Router } from "@angular/router";
 })
 export class HomePage {
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
 
-  wishNav(){
+  }
+
+  wishesPageNav(){
     this.router.navigate(["wishes"]);
   }
 }

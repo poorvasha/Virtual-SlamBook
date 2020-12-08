@@ -1,0 +1,58 @@
+ion-content.background{
+    --background: url('../../assets/space.png');
+} 
+ion-grid{
+    margin-bottom: 40px;
+}
+ion-row{
+    margin-top:40px;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ion-card{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(4, 0, 0, 0.30);
+    border: 10px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.746);
+}
+
+/* ==================== Card Content font-Styles =================== */
+.text-center{
+    text-align: center;
+}
+#heading{
+    margin: 15px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 46px;
+    color: rgba(0, 255, 255, 1);
+    text-transform: capitalize; 
+}
+#paragraph{
+    margin: 0px 20px 0px 20px;
+    font-family: 'Quando', serif;
+    font-size: 16px;
+    color: whitesmoke;
+    line-height: 35px;
+    letter-spacing: 2%;
+    
+}
+/* ==================== SpecialCard and font Styles =================== */
+#specialCard{
+    background-color: rgba(0, 255, 255, 0) ;
+    border: 5px solid  rgba(0, 255, 255, 1); 
+    width: 200px;
+    height: 70px;   
+}
+#specialCard-heading{
+    font-family: 'Great Vibes', cursive;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 2%;
+    color: whitesmoke;
+}

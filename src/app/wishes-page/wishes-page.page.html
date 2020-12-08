@@ -1,9 +1,27 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>wishesPage</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
+
+<!-- content -->
+<ion-content [fullscreen] = "true" class = "background">
+
+  <ion-grid>
+
+    <ion-row class="content-center" *ngFor = "let data of persons">
+      <ion-card class="text-center">
+        <p id = "heading">{{ data.Name}}</p>
+        <p id = "paragraph"> {{ data.Wish }}</p>
+      </ion-card>
+    </ion-row>
+
+    <ion-row class="content-center">
+      <ion-card class="content-center" id="specialCard" (click) = "foreverPageNav()">
+        <p id = "specialCard-heading">Click Here</p>
+      </ion-card>
+    </ion-row>
+   
+  </ion-grid>
+
 
 </ion-content>
+
+
+
